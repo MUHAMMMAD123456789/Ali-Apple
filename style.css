@@ -1,0 +1,361 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1330px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    place-items: center;
+    gap: 35px;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+nav img {
+    width: 20px;
+}
+
+nav button {
+    background: none;
+    border: 0;
+}
+
+.first-main {
+    position: relative;
+}
+
+.first-main h3 {
+    color: #b64400;
+    font-size: 18px;
+}
+
+.first-main h1 {
+    font-size: 48px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.first-main p {
+    padding-bottom: 70px;
+}
+
+.first-section {
+    display: flex;
+    padding: 52px 0 22px;
+    gap: 60px;
+}
+
+.pictures {
+    position: sticky;
+    width: 950px;
+    height: 500px;
+    padding: 70px 0px;
+    background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-1inch_GEO_US?wid=5120&hei=2880&fmt=webp&qlt=70&.v=VW44dkRidm5wazhwcGxtL0cyaEJ2VTkrNXBUdUJSK1k4NE5seUtJaW80ZWVodDhQODlsUWorNVh3SzNuSFFmNUFOL1haWCt6TDJ0UWlLb09XajVNdENYR1ZZZnEyMVlVQUliTThGMjNyaFFyYlZEeEMzTCtMN2FsaFkyeEVOZ25XMXlzYnRIL3lCM3NHNzJPZHdId2NBPT0=&traceId=1);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: .5s ease;
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 42px;
+    background-color: #f5f5f7;
+    border-radius: 18px;
+    margin-bottom: 10px;
+}
+
+.column a {
+    color: #1d1d1f;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+
+.block {
+    padding-left: 17%;
+}
+
+.model {
+    display: flex;
+    padding-top: 150px;
+}
+
+.model p {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: .009em;
+}
+
+.model span {
+    color: #86868b;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: .009em;
+}
+
+.options {
+    margin-top: 30px;
+}
+
+.btn_options {
+    border: 1px solid;
+    background-color: #fffc;
+    border-radius: 12px;
+    width: 328px;
+    height: 83px;
+    margin-bottom: 15px;
+}
+
+.third_btn {
+    border: 1px solid;
+    background-color: #fffc;
+    border-radius: 12px;
+    width: 328px;
+    height: 83px;
+    margin-bottom: 15px;
+}
+
+.clicked {
+    border: 2px solid;
+    border-color: blue;
+}
+
+.about-iphone {
+    text-align: start;
+}
+
+.about-iphone h2 {
+    padding-bottom: 5px;
+}
+
+.about_iphone p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #86868b;
+}
+
+.cost_per_month {
+    width: 80px;
+    color: gray;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text {
+    width: 80%;
+    color: gray;
+}
+
+.about_last {
+    text-align: start;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.btn_colors {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0px;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    background-color: white;
+    border: 0;
+}
+
+.btn_colors img {
+    border-radius: 50%;
+}
+
+.phone_color {
+    border: 2px solid blue;
+}
+
+.cvet {
+    font-weight: 600;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-size: large;
+}
+
+.st {
+    display: flex;
+}
+
+.st p {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: .009em;
+}
+
+.st span {
+    color: #86868b;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: .009em;
+}
+
+.stt span {
+    color: #86868b;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: .009em;
+}
+
+.storage {
+    margin-top: 190px;
+}
+
+.pictures {
+    position: sticky;
+    top: 200px;
+}
+
+.supercharged {
+    text-align: center;
+}
+
+.supercharged h1 {
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.supercharged p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.mac_img {
+    width: 312px;
+    height: 290px;
+    background-image: url(img/white.png);
+    transition: .5s ease;
+}
+
+.macbook {
+    display: flex;
+    gap: 76px;
+    text-align: start;
+    justify-content: center;
+    margin-top: 65px;
+}
+
+.cost {
+    margin-top: 70px;
+}
+
+.cost h1 {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.mac_color {
+    color: #0071E3;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 40px;
+    transition: .5s ease;
+}
+
+.mac_cost {
+    color: #000000;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+#white {
+    background-color: #0071E3;
+    color: white;
+    border: 0;
+    width: 155px;
+    height: 42px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#sp_grey {
+    background-color: #CFE7FF;
+    color: #797979;
+    border: 0;
+    width: 155px;
+    height: 42px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.color_types {
+    display: flex;
+    justify-content: center;
+    gap: 11px;
+    margin-top: 60px;
+}
+
+.gb_btn {
+    width: 321px;
+    height: 57px;
+    border: 2px solid #CFE7FF;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.phone_storage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+}
+
+.st_info {
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.st_info h1 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.st_info p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.clicked_gb {
+    border: 2px solid #007FFF;
+}
